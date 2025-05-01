@@ -61,9 +61,6 @@ for img in img_l:
         # Display the image with detected circles
         cv2.imshow("Detected Circle", img)
 
-
-
-
     if detected_circles is not None:
         """ Original source method - did not work for me"""
         # Extract the first detected circle's parameters
@@ -96,7 +93,5 @@ for img in img_l:
 
 """
 RGB code to Color
-
 https://convertingcolors.com/
-
 """
