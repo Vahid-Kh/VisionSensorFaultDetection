@@ -63,6 +63,7 @@ for img in img_l:
 
 
 
+
     if detected_circles is not None:
         """ Original source method - did not work for me"""
         # Extract the first detected circle's parameters
