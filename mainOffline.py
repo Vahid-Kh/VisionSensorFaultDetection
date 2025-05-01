@@ -91,7 +91,7 @@ for img in img_l:
     # Wait for a key press to proceed to the next image
     cv2.waitKey(0)
 
-"""
+"""  
 RGB code to Color
 https://convertingcolors.com/
 """
