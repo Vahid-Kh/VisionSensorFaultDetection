@@ -20,6 +20,8 @@ img_l = [
     cv2.imread('Sight glass pictures/sample4.png'),
 ]
 
+
+
 # Iterate over each image in the list
 for img in img_l:
     # Convert the image to grayscale
