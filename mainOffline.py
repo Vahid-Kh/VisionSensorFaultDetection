@@ -20,6 +20,8 @@ img_l = [
     cv2.imread('Sight glass pictures/sample4.png'),
 ]
 
+
+
 # Iterate over each image in the list
 for img in img_l:
     # Convert the image to grayscale
@@ -61,9 +63,6 @@ for img in img_l:
         # Display the image with detected circles
         cv2.imshow("Detected Circle", img)
 
-
-
-
     if detected_circles is not None:
         """ Original source method - did not work for me"""
         # Extract the first detected circle's parameters
@@ -94,9 +93,7 @@ for img in img_l:
     # Wait for a key press to proceed to the next image
     cv2.waitKey(0)
 
-"""
+"""  
 RGB code to Color
-
 https://convertingcolors.com/
-
 """
